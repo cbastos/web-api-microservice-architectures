@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "commonjs", 
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "lib": ["es6", "dom"],
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "types": ["node"],
+        "typeRoots" : ["./node_modules/@types"]
+    },
+    "include": [
+        "**/*.ts",
+        "node_modules/@types"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
